@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.alias {cursor: alias;
+	    width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	    margin-left: 5px;}
+.all-scroll {cursor: all-scroll;
+        width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.auto {cursor: auto;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.cell {cursor: cell;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.context-menu {cursor: context-menu;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.col-resize {cursor: col-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.copy {cursor: copy;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.crosshair {cursor: crosshair;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.default {cursor: default;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.e-resize {cursor: e-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.ew-resize {cursor: ew-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.grab {cursor: -webkit-grab; cursor: grab;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.help {cursor: help;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.move {cursor: move;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.n-resize {cursor: n-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.ne-resize {cursor: ne-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.nesw-resize {cursor: nesw-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.ns-resize {cursor: ns-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.nw-resize {cursor: nw-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.nwse-resize {cursor: nwse-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.no-drop {cursor: no-drop;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.none {cursor: none;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.not-allowed {cursor: not-allowed;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.pointer {cursor: pointer;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.progress {cursor: progress;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.row-resize {cursor: row-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.s-resize {cursor: s-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.se-resize {cursor: se-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.sw-resize {cursor: sw-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.w-resize {cursor: w-resize;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.wait {cursor: wait;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.zoom-in {cursor: zoom-in;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+.zoom-out {cursor: zoom-out;width: 100px;
+		height: 100px;
+		background-color: red;
+		float: left;
+	margin-left: 5px;}
+</style>
+</head>
+<body>
+	<div class="box">
+<p class="alias">alias</p>
+<p class="all-scroll">all-scroll</p>
+<p class="auto">auto</p>
+<p class="cell">cell</p>
+<p class="context-menu">context-menu</p>
+<p class="col-resize">col-resize</p>
+<p class="copy">copy</p>
+<p class="crosshair">crosshair</p>
+<p class="default">default</p>
+<p class="e-resize">e-resize</p>
+<p class="ew-resize">ew-resize</p>
+<p class="grab">grab</p>
+<p class="grabbing">grabbing</p>
+<p class="help">help</p>
+<p class="move">move</p>
+<p class="n-resize">n-resize</p>
+<p class="ne-resize">ne-resize</p>
+<p class="nesw-resize">nesw-resize</p>
+<p class="ns-resize">ns-resize</p>
+<p class="nw-resize">nw-resize</p>
+<p class="nwse-resize">nwse-resize</p>
+<p class="no-drop">no-drop</p>
+<p class="none">none</p>
+<p class="not-allowed">not-allowed</p>
+<p class="pointer">pointer</p>
+<p class="progress">progress</p>
+<p class="row-resize">row-resize</p>
+<p class="s-resize">s-resize</p>
+<p class="se-resize">se-resize</p>
+<p class="sw-resize">sw-resize</p>
+<p class="text">text</p>
+<p class="url">url</p>
+<p class="w-resize">w-resize</p>
+<p class="wait">wait</p>
+<p class="zoom-in">zoom-in</p>
+<p class="zoom-out">zoom-out</p>
+</div>
+</body>
+</html>
